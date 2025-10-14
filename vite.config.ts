@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: '/aretebio-clarity-vision/',
+  base: mode === 'production' ? '/aretebio-clarity-vision/' : '/',
   server: {
     host: "::",
     port: 8080,
