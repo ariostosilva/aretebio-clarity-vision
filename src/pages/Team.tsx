@@ -22,51 +22,106 @@ const Team = () => {
 
       <section className="py-24">
         <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto">
-            <Card className="border-none shadow-soft">
-              <CardContent className="p-8">
-                <h2 className="text-3xl font-heading font-semibold mb-6 text-primary text-center">
-                  Leadership
-                </h2>
-                <p className="text-foreground/70 leading-relaxed text-center mb-8">
-                  Our multidisciplinary team brings together expertise in oncology, data science, 
-                  artificial intelligence, and patient advocacy to create tools that truly serve 
-                  the needs of patients and clinicians.
-                </p>
-                <p className="text-foreground/60 text-center italic">
-                  Team profiles and bios coming soon.
-                </p>
-              </CardContent>
-            </Card>
-
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-              <Card className="border-none shadow-soft">
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-heading font-semibold mb-2 text-primary">Clinical</h3>
-                  <p className="text-sm text-foreground/70">
-                    Oncologists and researchers with deep expertise in cancer care
+          <div className="max-w-6xl mx-auto space-y-8">
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <Card className="border-none shadow-elegant">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-heading font-semibold mb-2 text-primary">
+                    Dr. Ariosto Silva, PhD
+                  </h2>
+                  <p className="text-sm text-secondary font-medium mb-4">
+                    Co-Founder | Systems Biology & AI
+                  </p>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Cancer systems biologist with expertise in multi-omic integration, evolutionary modeling, and narrative frameworks for therapy resistance. Creator of EMMA and the Echo suite.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="border-none shadow-soft">
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-heading font-semibold mb-2 text-primary">Technical</h3>
-                  <p className="text-sm text-foreground/70">
-                    Data scientists and AI engineers building innovative solutions
+              <Card className="border-none shadow-elegant">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-heading font-semibold mb-2 text-primary">
+                    Dr. Kenneth Shain, MD, PhD
+                  </h2>
+                  <p className="text-sm text-secondary font-medium mb-4">
+                    Co-Founder | Translational Oncology
+                  </p>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Clinician-scientist focused on multiple myeloma biology and real-world application of ex vivo and omics-derived models. Leads translational efforts connecting patients to predictive tools.
                   </p>
                 </CardContent>
               </Card>
 
-              <Card className="border-none shadow-soft">
-                <CardContent className="p-6 text-center">
-                  <h3 className="text-xl font-heading font-semibold mb-2 text-primary">Advisory</h3>
-                  <p className="text-sm text-foreground/70">
-                    Patient advocates ensuring dignity remains central
+              <Card className="border-none shadow-elegant">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-heading font-semibold mb-2 text-primary">
+                    Dr. Rafael Canevarolo, PhD
+                  </h2>
+                  <p className="text-sm text-secondary font-medium mb-4">
+                    Experimental Biology & Assay Systems
+                  </p>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Developer of the EMMA functional assay and downstream pipelines for molecular pathway mapping. Leads experimental protocols and live tissue processing.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-elegant">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-heading font-semibold mb-2 text-primary">
+                    Dr. Praneeth Sudalagunta, PhD
+                  </h2>
+                  <p className="text-sm text-secondary font-medium mb-4">
+                    AI, Machine Learning, and Control Theory
+                  </p>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Specialist in dynamic systems modeling, transcriptomic clustering, and therapy response prediction. Leads machine learning development and integration of AI agents.
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="border-none shadow-elegant">
+                <CardContent className="p-8">
+                  <h2 className="text-2xl font-heading font-semibold mb-2 text-primary">
+                    Dr. Maria Meads, PhD
+                  </h2>
+                  <p className="text-sm text-secondary font-medium mb-4">
+                    Functional Biology and Ex Vivo Models
+                  </p>
+                  <p className="text-foreground/70 leading-relaxed">
+                    Expert in tumor microenvironment and patient-derived culture systems. Supports ex vivo fidelity and viability tracking.
                   </p>
                 </CardContent>
               </Card>
             </div>
+
+            <Card className="border-none shadow-soft mt-12">
+              <CardContent className="p-8">
+                <h2 className="text-2xl font-heading font-semibold mb-6 text-primary">
+                  Clinical & Scientific Collaborators
+                </h2>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-foreground/70">
+                  <div>
+                    <p className="font-medium text-primary">Dr. Rachid Baz</p>
+                    <p className="text-sm">Clinical Trials (Myeloma)</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-primary">Dr. Jason Brayer</p>
+                    <p className="text-sm">Immunotherapy and Trial Integration</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-primary">Dr. Bijal Shah</p>
+                    <p className="text-sm">Hematologic Malignancies</p>
+                  </div>
+                  <div>
+                    <p className="font-medium text-primary">Dr. Mehdi Damaghi</p>
+                    <p className="text-sm">Metabolism and TME Dynamics</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
           </div>
         </div>
       </section>

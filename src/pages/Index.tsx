@@ -154,16 +154,21 @@ const Index = () => {
       {/* Mission Section */}
       <section id="about" className="py-24 bg-muted">
         <div className="container mx-auto px-4">
-          <div className="max-w-3xl mx-auto text-center animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-8 text-primary">
+          <div className="max-w-4xl mx-auto animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-8 text-primary text-center">
               Our Mission
             </h2>
-            <p className="text-xl text-foreground/70 leading-relaxed">
-              We began in silence — taught not to speak the word 'cancer.' At areteBio, 
-              we transform that silence into insight. We bridge data and dignity, turning 
-              clinical complexity into clarity that empowers patients, supports physicians, 
-              and advances pharmaceutical research.
-            </p>
+            <div className="space-y-6 text-lg text-foreground/70 leading-relaxed">
+              <p>
+                At areteBio, we believe cancer is not merely a diagnosis — it's a story. Our mission is to transform that story into a map: one that reveals where the patient stands, where the disease has been, and what paths still remain.
+              </p>
+              <p>
+                Founded by Dr. Ariosto Silva and Dr. Kenneth Shain, areteBio was born at the crossroads of systems biology, clinical care, and a desire to turn complexity into clarity. We create AI tools that are deeply personal — not in the abstract sense, but at the molecular, clinical, and emotional level. Our technologies are built to understand patients as individuals, honor physicians' intuition, and empower pharma with insights grounded in real-world evolution.
+              </p>
+              <blockquote className="border-l-4 border-secondary pl-6 py-4 italic text-xl text-foreground/80 mt-8">
+                We don't just treat cancer. We listen to it — and translate what it says.
+              </blockquote>
+            </div>
           </div>
         </div>
       </section>
