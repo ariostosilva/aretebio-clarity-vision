@@ -27,6 +27,7 @@ const Navigation = () => {
     { name: "Physicians", path: "/physicians" },
     { name: "Pharma", path: "/pharma" },
     { name: "Research", path: "/research" },
+    { name: "Technologies", path: "/technologies" },
     { name: "Publications", path: "/publications" },
     { name: "Team", path: "/team" },
     { name: "Contact", path: "/contact" },
